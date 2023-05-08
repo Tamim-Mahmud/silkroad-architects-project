@@ -1,0 +1,412 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* landing page style */
+
+.header-section,
+.header-section {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.nav-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-section title,
+ul>li {}
+
+.nav-section>ul {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-hide {
+    display: none;
+}
+
+.nav-section ul a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.land-section {
+
+    text-align: center;
+}
+
+.land-details {}
+
+.land-title {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.land-des {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.explore-btn {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 0;
+    margin-bottom: 50px;
+    margin-top: 32px;
+}
+
+.banner-img>img {
+    border-radius: 8px;
+    margin-bottom: 30px;
+    ;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-section>ul>a {
+        display: none;
+    }
+
+    .nav-hide {
+        display: block;
+    }
+
+    .nav-section {
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    .land-details {
+        padding: 30px;
+        font-size: 45px;
+        ;
+    }
+
+    .banner-img>img {
+        width: 100%;
+
+    }
+
+    .explore-btn {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/* section2 design */
+.feature-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.section2 {
+    margin-top: 85px;
+
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.feature-img>img {
+    margin: 5px;
+}
+
+.feature-des {
+    width: 537px;
+}
+
+@media screen and (max-width: 576px) {
+    .feature-img {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+
+    .feature-img>img {
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .feature-des {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+
+.section3 {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+
+
+}
+
+.sec3-detail {
+    width: 600px;
+}
+
+.sec3-title>h2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+
+}
+
+.fetaure-detail,
+.sec3-detail,
+.blog-des,
+.fact-des,
+.sponser-des {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: #727272;
+}
+
+.blog .title {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #131313;
+}
+
+.blog {
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.experience-box {
+    padding: 45px;
+
+    background: #FF900E;
+    border-radius: 8px;
+
+    text-align: center;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.extra {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.temp {
+    display: flex;
+
+    justify-content: center;
+    margin-top: -150px;
+}
+
+@media screen and (max-width: 576px) {
+    .section3 {
+        flex-direction: column;
+
+
+    }
+
+    .section3>img {
+        display: none;
+    }
+
+    .section3 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .blog {
+        width: auto;
+        padding: 0;
+    }
+
+    .temp {
+        margin-top: -50px;
+    }
+    .sec3-detail{
+        width:100%
+    }
+
+}
+
+.section4 {
+   text-align: center;
+}
+
+.section4>h3,
+.sponser-title {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.work-idea {
+    margin-top: 100px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding: 50px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.performance {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.work-idea:hover {
+
+    border: 2px solid red;
+    transition: border 1s;
+    transform: scale(1.2);
+    transition: transform 1s ease-out;
+
+
+}
+
+.section5 {
+    margin-top: 180px;
+    text-align: center;
+
+
+}
+
+.sponsor-logo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:576px) {
+    body {
+        padding: 15px;
+    }
+
+    .section4 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        margin: 50px auto 50px auto;
+    }
+
+    .performance {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: 5px;
+
+    }
+
+    .work-idea {
+        margin: 5px;
+        width: 120px;
+    }
+
+    .section5 {
+        width: 100%;
+    }
+
+    .sponsor-logo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px
+    }
+    .section5 {
+        margin-top:30px;
+    }
+
+}
